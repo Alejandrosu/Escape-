@@ -22,7 +22,7 @@ public class Menu : MonoBehaviour {
 		//Los botones del Main Menu
 		if (GUI.Button (new Rect (Screen.width * .25f, Screen.height * .5f, Screen.width * .5f, Screen.height * .1f),startButton, "")) 
 		{
-			Application.LoadLevel("Level1");
+			Application.LoadLevel("Game");
 		}
 		if (GUI.Button (new Rect (Screen.width * .25f, Screen.height * .75f, Screen.width * .5f, Screen.height * .1f),exitButton, "")) 
 		{
