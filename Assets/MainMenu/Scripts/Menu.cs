@@ -28,5 +28,6 @@ public class Menu : MonoBehaviour {
 		{
 			Application.Quit();
 		}
+		//Fin de los botones de Main fucking Menu
 	}
 }
