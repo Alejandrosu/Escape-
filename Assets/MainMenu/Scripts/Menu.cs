@@ -19,7 +19,7 @@ public class Menu : MonoBehaviour {
 		//Muestra el background
 		GUI.DrawTexture (new Rect (0, 0, Screen.width, Screen.height), backgroundTexture);
 
-		//Los botones
+		//Los botones del Main Menu
 		if (GUI.Button (new Rect (Screen.width * .25f, Screen.height * .5f, Screen.width * .5f, Screen.height * .1f),startButton, "")) 
 		{
 			Application.LoadLevel("Level1");
