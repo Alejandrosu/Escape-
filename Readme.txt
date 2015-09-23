@@ -2,12 +2,13 @@ Importante
 
 Los cambios los suben en el branch development. 
 
-Yo me voy a encargar de mandar los push al Master :p
+Luego de cambios notables se hace un merge al Master.
 
 Comandos utiles:
 
 git pull
-git add
+git checkout "nombre del branch sin comillas"
+git add "Archivo modificado sin comillas"
 git status
 git commit -m "mensaje aqui"
 git push
